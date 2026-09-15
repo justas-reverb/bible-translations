@@ -15,6 +15,11 @@ place. A corrected text becomes a new release with a new app build.
 | `bible_ylt.db.gz` | Young's Literal Translation | 1898 | 1,609,266 bytes | `13ae2524f1ea0311528e248a8840347435871dfc8df6da57418056ebb9f49cfe` |
 | `bible_bbe.db.gz` | Bible in Basic English | 1965 | 1,510,585 bytes | `a9d49696a6944ac4fa72579134e4601728771837a97c372948ee15e812444013` |
 
+The same four files are also committed in the `v1/` folder, so they can be
+served by the jsDelivr CDN as a fallback where github.com cannot be reached. The
+app pins that fallback to a specific commit, and checks the size and SHA-256 of
+whatever it downloads from either place.
+
 `manifest.json` lists the same files with the uncompressed database sizes and
 hashes the app checks after decompressing. It also describes the King James
 Version, which is built into the app and not hosted here.
