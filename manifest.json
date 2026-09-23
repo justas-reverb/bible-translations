@@ -9,7 +9,10 @@
     "file": "bible_kjv.db",
     "databaseBytes": 4866048,
     "sha256": "4c6597bda14b8d938e0e98ee7cd25a0d4417ea9f18c9a978aabec5d7fff4587d",
-    "verses": 31102
+    "verses": 31102,
+    "language": "en",
+    "draft": false,
+    "firstBookId": 1
   },
   {
     "id": "WEB",
@@ -20,11 +23,14 @@
     "bundled": false,
     "file": "bible_web.db",
     "databaseBytes": 4624384,
-    "sha256": "4e02475cbeb1ab4ee2408959e02bf1d2db6d1d9499f4fc7dcba8760860c934a2",
+    "sha256": "29794db6f86bdb7b0d0817570e3d7472ee99cf4b2d3d4327e0b75eb6ad0eb70a",
     "verses": 31103,
+    "language": "en",
+    "draft": false,
+    "firstBookId": 1,
     "downloadFile": "bible_web.db.gz",
-    "downloadBytes": 1534103,
-    "downloadSha256": "5b3e6d60e60c3f49e002bc27e584943e618709c15fb4560eea43f9f6da851948"
+    "downloadBytes": 1534096,
+    "downloadSha256": "fff2ea02edbb2f56e81564847d6331f08d0b57d708c1b211ac197b1925b4993a"
   },
   {
     "id": "ASV",
@@ -37,6 +43,9 @@
     "databaseBytes": 4763648,
     "sha256": "1343bc1175044ac4dc8afed179e0acc1cede790829cbb61f5153d82d13caa315",
     "verses": 31102,
+    "language": "en",
+    "draft": false,
+    "firstBookId": 1,
     "downloadFile": "bible_asv.db.gz",
     "downloadBytes": 1583270,
     "downloadSha256": "da4c6f5b8dd63a7bd42cdbdcede08cfec0b9632d01d9368ca7806966f58d6317"
@@ -52,6 +61,9 @@
     "databaseBytes": 4800512,
     "sha256": "8841592955f7988baa36a0fc60eeaf9f678ef56c6f6fb8be5e105363dd354c9a",
     "verses": 31102,
+    "language": "en",
+    "draft": false,
+    "firstBookId": 1,
     "downloadFile": "bible_ylt.db.gz",
     "downloadBytes": 1609266,
     "downloadSha256": "13ae2524f1ea0311528e248a8840347435871dfc8df6da57418056ebb9f49cfe"
@@ -67,8 +79,26 @@
     "databaseBytes": 4767744,
     "sha256": "8b6f1a2bb00f1616c54deafb23022512c7c7ed874317bbc5eee182381f1f8a39",
     "verses": 31102,
+    "language": "en",
+    "draft": false,
+    "firstBookId": 1,
     "downloadFile": "bible_bbe.db.gz",
     "downloadBytes": 1510585,
     "downloadSha256": "a9d49696a6944ac4fa72579134e4601728771837a97c372948ee15e812444013"
+  },
+  {
+    "id": "LT",
+    "name": "Lietuvių (juodraštis)",
+    "year": "2026",
+    "description": "Naujasis Testamentas, verstas iš graikų kalbos. Juodraštis: dar tikrinamas, jame gali būti klaidų.",
+    "licence": "Draft",
+    "bundled": true,
+    "file": "bible_lt.db",
+    "databaseBytes": 1028096,
+    "sha256": "319bc6e621fc827a5484abd4f55061f1a7cd13a589f1d13f4160114f44febadd",
+    "verses": 7957,
+    "language": "lt",
+    "draft": true,
+    "firstBookId": 40
   }
 ]
